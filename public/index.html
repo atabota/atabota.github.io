@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="PeerPark helps churches manage parking with hospitality-minded signage, monitoring, payments, appeals, and support at no upfront cost.">
-  <title>PeerPark | Church Parking, Handled with Care</title>
+    content="PeerPark helps churches protect parking for worship, weekday ministry, staff, and guests with hospitality-minded parking operations.">
+  <title>PeerPark | Church Parking with Hospitality</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="index.css">
@@ -20,236 +21,232 @@
   <nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="navbar__inner">
       <a href="#" class="navbar__logo" aria-label="PeerPark home">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <rect x="3" y="11" width="18" height="10" rx="2" />
-          <circle cx="12" cy="5" r="2" />
-          <path d="M12 7v4" />
-          <line x1="8" x2="8" y1="16" y2="16" />
-          <line x1="16" x2="16" y1="16" y2="16" />
-        </svg>
-        PeerPark
+        <span class="navbar__mark" aria-hidden="true">
+          <img src="assets/peerpark-logo.png" alt="">
+        </span>
+        <span>PeerPark</span>
       </a>
 
       <ul class="navbar__links">
-        <li><a href="#services" class="navbar__link">For Churches</a></li>
-        <li><a href="#how-it-works" class="navbar__link">How It Works</a></li>
-        <li><a href="#value" class="navbar__link">No Upfront Cost</a></li>
+        <li><a href="#churches" class="navbar__link">Churches</a></li>
+        <li><a href="#care" class="navbar__link">Driver Care</a></li>
+        <li><a href="#setup" class="navbar__link">Setup</a></li>
+        <li><a href="#value" class="navbar__link">Cost</a></li>
         <li><a href="#contact" class="navbar__link">Contact</a></li>
         <li><a href="appeals.html" class="navbar__link">Appeals</a></li>
         <li><a href="payments.html" class="navbar__link">Payments</a></li>
       </ul>
 
       <a href="#contact" class="navbar__cta">Talk With Us</a>
-
-      <button class="navbar__menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </div>
   </nav>
 
-  <section class="hero" id="hero" aria-label="Church parking service">
-    <img class="hero__image" src="assets/church-parking-hero.png" alt="A welcoming church parking lot in morning light">
-    <div class="hero__overlay"></div>
+  <main>
+    <section class="hero" id="hero" aria-label="Church parking service">
+      <img class="hero__image" src="assets/church-parking-hero.png"
+        alt="A welcoming church parking lot in warm morning light">
+      <div class="hero__shade"></div>
 
-    <div class="hero__content">
-      <p class="hero__eyebrow">Parking support for church campuses</p>
-      <h1 class="hero__title">Church parking, handled with care.</h1>
-
-      <p class="hero__description">
-        PeerPark helps churches keep parking available for worship, weekday ministry, staff, and guests without asking
-        your team to manage citations, payments, signs, or support calls.
-      </p>
-
-      <div class="hero__actions">
-        <a href="#contact" class="btn btn--primary">
-          Schedule a Conversation
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-          </svg>
-        </a>
-        <a href="#services" class="btn btn--secondary">See What We Handle</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="services section" id="services">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Built around hospitality</p>
-        <h2>Protect your spaces without making parking feel harsh.</h2>
-        <p>
-          Churches need room for Sunday services, funerals, weddings, staff, weekday ministries, and community events.
-          We keep the process clear for drivers and light for your team.
+      <div class="hero__content">
+        <p class="eyebrow">Hospitality-minded parking support</p>
+        <h1>Protect your church lot while welcoming your community.</h1>
+        <p class="hero__lead">
+          PeerPark keeps parking available for worship, staff, guests, weekday ministry, and special services without
+          turning your church office into a parking office.
         </p>
-      </div>
 
-      <div class="services__grid">
-        <div class="service-item">
-          <div class="service-item__icon">
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">
+            Schedule a Conversation
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <path d="M20 6 9 17l-5-5" />
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
             </svg>
-          </div>
-          <h3 class="service-item__title">Guest-first guidance</h3>
-          <p class="service-item__description">
-            Clear signs and simple instructions help drivers understand when spaces are reserved for church use.
-          </p>
-        </div>
-
-        <div class="service-item">
-          <div class="service-item__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 6v6l4 2" />
-            </svg>
-          </div>
-          <h3 class="service-item__title">Sunday and weekday rules</h3>
-          <p class="service-item__description">
-            We tailor parking windows around worship times, office hours, school programs, rentals, and special events.
-          </p>
-        </div>
-
-        <div class="service-item">
-          <div class="service-item__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-            </svg>
-          </div>
-          <h3 class="service-item__title">Support handled for you</h3>
-          <p class="service-item__description">
-            Drivers contact us for payment questions, appeals, and citation support, so your office staff does not have
-            to carry that burden.
-          </p>
-        </div>
-
-        <div class="service-item">
-          <div class="service-item__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <path d="M3 3h18v14H3z" />
-              <path d="M8 21h8" />
-              <path d="M12 17v4" />
-            </svg>
-          </div>
-          <h3 class="service-item__title">Monitoring and equipment</h3>
-          <p class="service-item__description">
-            We install and maintain the equipment needed to monitor your lot with minimal disruption to campus life.
-          </p>
-        </div>
-
-        <div class="service-item">
-          <div class="service-item__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <rect x="2" y="5" width="20" height="14" rx="2" />
-              <path d="M2 10h20" />
-            </svg>
-          </div>
-          <h3 class="service-item__title">Payments and appeals</h3>
-          <p class="service-item__description">
-            Online lookup, payment, and appeal paths give drivers a clear process without involving church staff.
-          </p>
-        </div>
-
-        <div class="service-item">
-          <div class="service-item__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true">
-              <path d="M3 3v18h18" />
-              <path d="m19 9-5 5-4-4-3 3" />
-            </svg>
-          </div>
-          <h3 class="service-item__title">Simple reporting</h3>
-          <p class="service-item__description">
-            Your leadership can see what is happening in the lot without learning a complicated parking system.
-          </p>
+          </a>
+          <a href="#churches" class="btn btn--secondary">See the Approach</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="how-it-works section" id="how-it-works">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">A simple start</p>
-        <h2>We fit the parking plan around your ministry schedule.</h2>
-      </div>
-
-      <div class="how-it-works__steps">
-        <div class="step">
-          <div class="step__number">1</div>
-          <h3 class="step__title">Walk the campus</h3>
-          <p class="step__description">
-            We learn how your lot is used across worship services, office hours, events, rentals, and neighboring
-            traffic.
-          </p>
+    <section class="welcome-strip" aria-label="PeerPark church parking highlights">
+      <div class="container welcome-strip__inner">
+        <div>
+          <strong>Sunday ready</strong>
+          <span>Rules shaped around worship times and church events.</span>
         </div>
-
-        <div class="step">
-          <div class="step__number">2</div>
-          <h3 class="step__title">Set clear rules</h3>
-          <p class="step__description">
-            Together, we define the times, spaces, signage, and communication that make sense for your church.
-          </p>
+        <div>
+          <strong>Staff light</strong>
+          <span>We handle notices, payments, questions, and appeals.</span>
         </div>
-
-        <div class="step">
-          <div class="step__number">3</div>
-          <h3 class="step__title">Let us operate it</h3>
-          <p class="step__description">
-            PeerPark manages monitoring, notices, payments, appeals, and maintenance, while your team stays focused on
-            ministry.
-          </p>
+        <div>
+          <strong>No upfront cost</strong>
+          <span>Equipment, signage, and setup are included.</span>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="value-prop section" id="value">
-    <div class="container">
-      <div class="value-prop__layout">
-        <div class="value-prop__copy">
-          <p class="section__eyebrow">No upfront cost</p>
-          <h2>Stewardship-friendly parking support.</h2>
-          <p class="value-prop__lead">
-            We provide installation, equipment, signage, operations, and driver support with no upfront fee. PeerPark is
-            compensated from collected parking revenue, so the program is built to serve your campus responsibly.
+    <section class="section churches" id="churches">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">For church campuses</p>
+          <h2>Parking management that feels calm, clear, and appropriate for ministry.</h2>
+          <p>
+            Many churches have lots that are busy on Sundays, used throughout the week, and vulnerable to neighborhood
+            overflow. PeerPark gives you a practical way to protect those spaces without creating an adversarial tone.
           </p>
         </div>
 
-        <ul class="value-prop__bullets">
-          <li>Free installation, equipment, and signage</li>
-          <li>Your church keeps 70% of collected revenue</li>
-          <li>Church staff no longer have to monitor the lot</li>
-          <li>Drivers get clear payment and appeal options</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+        <div class="care-grid">
+          <article class="care-card">
+            <div class="care-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20" />
+                <path d="M7 7h10" />
+                <path d="M5 22h14" />
+              </svg>
+            </div>
+            <h3>Worship-first scheduling</h3>
+            <p>
+              We build rules around Sunday services, funerals, weddings, office hours, school programs, rentals, and
+              special events.
+            </p>
+          </article>
 
-  <section class="cta section" id="contact">
-    <div class="container">
-      <div class="cta__content">
-        <p class="section__eyebrow">Start a conversation</p>
-        <h2>Tell us about your church parking needs.</h2>
-        <p>
-          Share your campus address and the times your lot needs the most support. We will follow up with practical next
-          steps.
-        </p>
+          <article class="care-card">
+            <div class="care-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+            </div>
+            <h3>Clear, gracious signage</h3>
+            <p>
+              Drivers see plain instructions before there is a problem, with language that fits a church campus rather
+              than a commercial parking lot.
+            </p>
+          </article>
+
+          <article class="care-card">
+            <div class="care-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </div>
+            <h3>Questions come to us</h3>
+            <p>
+              Payment questions, citation lookups, appeal requests, and driver support go through PeerPark instead of
+              your church office.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section care" id="care">
+      <div class="container care__layout">
+        <div class="care__copy">
+          <p class="eyebrow">Driver care</p>
+          <h2>Firm enough to protect spaces. Human enough for your neighborhood.</h2>
+          <p>
+            The goal is not to make your lot feel policed. The goal is to make expectations visible, reserve parking
+            when your ministry needs it, and give every driver a clear next step if they have a question.
+          </p>
+        </div>
+
+        <div class="care-list" aria-label="Driver care features">
+          <div class="care-list__item">
+            <span>01</span>
+            <p>Simple lookup and payment paths for drivers.</p>
+          </div>
+          <div class="care-list__item">
+            <span>02</span>
+            <p>Appeals routed to PeerPark for review and response.</p>
+          </div>
+          <div class="care-list__item">
+            <span>03</span>
+            <p>Reports for leadership without a complicated dashboard.</p>
+          </div>
+          <div class="care-list__item">
+            <span>04</span>
+            <p>Equipment and signs maintained by our team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section setup" id="setup">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Setup</p>
+          <h2>A practical plan for your actual campus rhythm.</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <span class="step__number">1</span>
+            <h3>Walk the property</h3>
+            <p>We learn where guests park, where staff park, and when the lot is under pressure.</p>
+          </article>
+          <article class="step">
+            <span class="step__number">2</span>
+            <h3>Set the schedule</h3>
+            <p>We define the days, hours, and exceptions that make sense for worship and weekday ministry.</p>
+          </article>
+          <article class="step">
+            <span class="step__number">3</span>
+            <h3>Install and explain</h3>
+            <p>We place equipment and signage with clear communication for your team and your drivers.</p>
+          </article>
+          <article class="step">
+            <span class="step__number">4</span>
+            <h3>Operate with care</h3>
+            <p>PeerPark manages monitoring, notices, payments, appeals, reporting, and maintenance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section value" id="value">
+      <div class="container value__layout">
+        <div class="value__panel">
+          <p class="eyebrow">Cost</p>
+          <h2>No upfront fee for the church.</h2>
+          <p>
+            PeerPark provides installation, equipment, signage, operations, and support without a setup bill. Your church
+            keeps 60% of collected parking revenue.
+          </p>
+        </div>
+
+        <div class="value__summary" aria-label="Program summary">
+          <div>
+            <strong>$0</strong>
+            <span>upfront setup cost</span>
+          </div>
+          <div>
+            <strong>60%</strong>
+            <span>kept by your church</span>
+          </div>
+          <div>
+            <strong>1 team</strong>
+            <span>handling signs, payments, appeals, and support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="contact">
+      <div class="container cta__layout">
+        <div class="cta__copy">
+          <p class="eyebrow">Start a conversation</p>
+          <h2>Tell us what is happening in your lot.</h2>
+          <p>
+            Share your church name, campus address, and the times parking is hardest to protect. We will follow up with
+            a simple next step.
+          </p>
+        </div>
 
         <form class="contact-form" action="https://formsubmit.co/team@ktsmedia.org" method="POST">
           <input type="hidden" name="_subject" value="New PeerPark Church Interest">
@@ -300,57 +297,41 @@ Thanks!</textarea>
           </button>
         </form>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="container">
-      <div class="footer__content">
-        <div class="footer__brand">
-          <div class="footer__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <rect x="3" y="11" width="18" height="10" rx="2" />
-              <circle cx="12" cy="5" r="2" />
-              <path d="M12 7v4" />
-              <line x1="8" x2="8" y1="16" y2="16" />
-              <line x1="16" x2="16" y1="16" y2="16" />
-            </svg>
-            PeerPark
-          </div>
-          <p class="footer__description">
-            Parking operations for churches and community campuses.
-          </p>
+    <div class="container footer__content">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="navbar__mark" aria-hidden="true">
+            <img src="assets/peerpark-logo.png" alt="">
+          </span>
+          PeerPark
         </div>
-
-        <div class="footer__column">
-          <h4>Churches</h4>
-          <ul class="footer__links">
-            <li><a href="#services">What We Handle</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#value">No Upfront Cost</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__column">
-          <h4>Drivers</h4>
-          <ul class="footer__links">
-            <li><a href="payments.html">Make a Payment</a></li>
-            <li><a href="appeals.html">Appeal a Citation</a></li>
-          </ul>
-        </div>
-
-        <div class="footer__column">
-          <h4>Contact</h4>
-          <ul class="footer__links">
-            <li><a href="#contact">Talk With Us</a></li>
-          </ul>
-        </div>
+        <p>Church parking operations with a hospitality-first tone.</p>
       </div>
 
-      <div class="footer__bottom">
-        <p>&copy; 2026 PeerPark. All rights reserved.</p>
+      <div class="footer__column">
+        <h4>Churches</h4>
+        <a href="#churches">Approach</a>
+        <a href="#setup">Setup</a>
+        <a href="#value">Cost</a>
       </div>
+
+      <div class="footer__column">
+        <h4>Drivers</h4>
+        <a href="payments.html">Make a Payment</a>
+        <a href="appeals.html">Appeal a Citation</a>
+      </div>
+
+      <div class="footer__column">
+        <h4>Contact</h4>
+        <a href="#contact">Talk With Us</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; 2026 PeerPark. All rights reserved.</p>
     </div>
   </footer>
 </body>
