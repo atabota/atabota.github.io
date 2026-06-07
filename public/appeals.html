@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Submit an appeal for a parking citation issued by PeerPark. Provide your ticket number and explain your case.">
+    <title>Appeals | PeerPark</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar__inner">
+            <a href="index.html" class="navbar__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="10" rx="2" />
+                    <circle cx="12" cy="5" r="2" />
+                    <path d="M12 7v4" />
+                    <line x1="8" x2="8" y1="16" y2="16" />
+                    <line x1="16" x2="16" y1="16" y2="16" />
+                </svg>
+                PeerPark
+            </a>
+
+            <ul class="navbar__links">
+                <li><a href="index.html#services" class="navbar__link">Services</a></li>
+                <li><a href="index.html#how-it-works" class="navbar__link">How It Works</a></li>
+                <li><a href="index.html#value" class="navbar__link">Pricing</a></li>
+                <li><a href="index.html#contact" class="navbar__link">Contact</a></li>
+                <li><a href="appeals.html" class="navbar__link">Appeals</a></li>
+                <li><a href="payments.html" class="navbar__link">Payments</a></li>
+            </ul>
+
+            <a href="index.html#contact" class="navbar__cta">Get in Touch</a>
+
+            <button class="navbar__menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== APPEALS SECTION ===== -->
+    <section class="page-hero section">
+        <div class="container">
+            <div class="page-hero__content">
+                <h1>Appeal a Citation</h1>
+                <p class="page-hero__description">
+                    Received a parking citation you believe was issued in error? Submit your appeal below and we'll
+                    review it within 5 business days.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section section">
+        <div class="container">
+            <div class="form-section__content">
+                <form class="contact-form" action="https://formsubmit.co/team@ktsmedia.org" method="POST">
+                    <input type="hidden" name="_subject" value="PeerPark Appeal Submission">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+
+                    <div class="contact-form__group">
+                        <label for="ticket" class="contact-form__label">Ticket/Citation Number</label>
+                        <input type="text" id="ticket" name="ticket" class="contact-form__input" required
+                            placeholder="e.g. PP-2026-001234">
+                    </div>
+
+                    <div class="contact-form__group">
+                        <label for="plate" class="contact-form__label">License Plate</label>
+                        <input type="text" id="plate" name="plate" class="contact-form__input" required
+                            placeholder="e.g. ABC-1234">
+                    </div>
+
+                    <div class="contact-form__group">
+                        <label for="email" class="contact-form__label">Your Email</label>
+                        <input type="email" id="email" name="email" class="contact-form__input" required
+                            placeholder="john@example.com">
+                    </div>
+
+                    <div class="contact-form__group">
+                        <label for="reason" class="contact-form__label">Reason for Appeal</label>
+                        <textarea id="reason" name="reason" class="contact-form__textarea" rows="6" required
+                            placeholder="Please explain why you believe this citation was issued in error..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary contact-form__submit">
+                        Submit Appeal
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14" />
+                            <path d="m12 5 7 7-7 7" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__bottom">
+                <p>&copy; 2026 PeerPark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
